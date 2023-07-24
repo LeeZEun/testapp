@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layoutDescription="@xml/passengers_scene" >
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Passengers Information"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Passenger1"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English Name" />
+
+    <com.example.testapp.ClearEditText
+        android:id="@+id/passengerText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write Passenger Name"
+        android:textColor="@color/lightGray"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/birthText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Birth Date" />
+
+    <com.example.testapp.ClearEditText
+        android:id="@+id/birth1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YYYYMMDD"
+        android:textColor="@color/lightGray"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp">
+
+        <TextView
+            android:id="@+id/genderText"
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:text="Gender" />
+
+        <RadioGroup
+            android:id="@+id/group1"
+            android:layout_width="78dp"
+            android:layout_height="41dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/btnMan1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Man"
+                android:textSize="10dp" />
+
+            <RadioButton
+                android:id="@+id/btnWoman1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Woman"
+                android:textSize="10dp" />
+
+        </RadioGroup>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/nationalityText"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:text="Nationality" />
+
+        <com.example.testapp.ClearEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nationality"
+            android:textColor="@color/lightGray"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:id="@+id/passportNumberText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Passport Number" />
+
+    <com.example.testapp.ClearEditText
+        android:id="@+id/passPortNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Only English/Number"
+        android:textColor="@color/lightGray"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/expiredText"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:text="Passport Expiry Date" />
+
+        <TextView
+            android:id="@+id/issueText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Passport Issuing Country" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.example.testapp.ClearEditText
+            android:id="@+id/expiredDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YYYYMMDD"
+            android:textColor="@color/lightGray"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Passenger2"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/nameText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English Name" />
+
+    <com.example.testapp.ClearEditText
+        android:id="@+id/passengerText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Write Passenger Name"
+        android:textColor="@color/lightGray"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/birthText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Birth Date" />
+
+    <com.example.testapp.ClearEditText
+        android:id="@+id/birth2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YYYYMMDD"
+        android:textColor="@color/lightGray"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/genderText2"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:text="Gender" />
+
+        <RadioGroup
+            android:id="@+id/group2"
+            android:layout_width="78dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/btnMan2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Man"
+                android:textSize="10dp" />
+
+            <RadioButton
+                android:id="@+id/btnWoman2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Woman"
+                android:textSize="10dp" />
+
+
+        </RadioGroup>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:id="@+id/nationalityText2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Nationality" />
+
+        <com.example.testapp.ClearEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="YYYYMMDD"
+            android:textColor="@color/lightGray"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+
+    <TextView
+        android:id="@+id/passportNumberText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Passport Number" />
+
+    <com.example.testapp.ClearEditText
+        android:id="@+id/passPortNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Only English/Number"
+        android:textColor="@color/lightGray"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/expiredText2"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:text="Passport Expiry Date" />
+
+        <TextView
+            android:id="@+id/issueText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Passport Issuing Country" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.example.testapp.ClearEditText
+            android:id="@+id/expiredDate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YYYYMMDD"
+            android:textColor="@color/lightGray"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/completeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Completed" />
+
+</LinearLayout>
